@@ -52,13 +52,13 @@ a:hover {
 
 .text-color-main {
     margin-left: 1rem;
-    color: #5b86e5;
-    -webkit-text-fill-color: #5b86e5
+    color: #8227c8;
+    -webkit-text-fill-color: #8227c8
 }
 
 @supports (background-clip: text) or (-webkit-background-clip: text) {
     .text-color-main {
-        background-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+        background-image: linear-gradient(135deg, #f2d44d 0%, #f3920b 100%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -70,7 +70,7 @@ a:hover {
     .text-color-main {
         margin: 0;
         background-image: none;
-        -webkit-text-fill-color: #5b86e5;
+        -webkit-text-fill-color: #8227c8;
         box-shadow: none
     }
 }
@@ -101,7 +101,7 @@ a:hover {
     content: "";
     display: block;
     position: absolute;
-    background-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+    background-image: linear-gradient(135deg, #f2d44d 0%, #f3920b 100%);
     width: 0px;
     height: 100%;
     left: 0;
@@ -119,16 +119,16 @@ a:hover {
 }
 
 .cta-btn--hero {
-    color: #5b86e5;
-    -webkit-text-fill-color: #5b86e5;
+    color: #8227c8;
+    -webkit-text-fill-color: #8227c8;
     border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+    border-image: linear-gradient(135deg, #eccc3e 0%, #f3920b 100%);
     border-image-slice: 1
 }
 
 @supports (background-clip: text) or (-webkit-background-clip: text) {
     .cta-btn--hero {
-        background-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+        background-image: linear-gradient(135deg, #f2d44d 0%, #f3920b 100%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -139,7 +139,7 @@ a:hover {
 @media screen and (-ms-high-contrast: active),
 screen and (-ms-high-contrast: none) {
     .cta-btn--hero {
-        color: #5b86e5
+        color: #8227c8
     }
 
     .cta-btn--hero:hover {
@@ -150,9 +150,9 @@ screen and (-ms-high-contrast: none) {
 @media (max-width: 37.5em) {
     .cta-btn--hero {
         background-image: none;
-        border: 2px solid #5b86e5;
+        border: 2px solid #8227c8;
         box-shadow: none;
-        -webkit-text-fill-color: #5b86e5
+        -webkit-text-fill-color: #8227c8;
     }
 }
 
@@ -169,7 +169,7 @@ screen and (-ms-high-contrast: none) {
 
 @media (max-width: 37.5em) {
     .cta-btn--hero:hover {
-        -webkit-text-fill-color: #5b86e5
+        -webkit-text-fill-color: #8227c8
     }
 }
 
@@ -188,7 +188,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 .cta-btn--resume:hover {
-    color: #5b86e5;
+    color: #8227c8;
     text-decoration: none;
     box-shadow: none
 }
@@ -251,7 +251,7 @@ screen and (-ms-high-contrast: none) {
 
 .footer__text a:hover,
 .footer__text a:active {
-    color: #36d1dc
+    color: #6af2fb
 }
 
 .footer hr {
@@ -390,8 +390,8 @@ section .row span {
 }
 
 #about {
-    background-color: #36d1dc;
-    background-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+    background-color: #6af2fb;
+    background-image: linear-gradient(135deg, #6af2fb 0%, #8227c8 100%);
     color: #fff;
     height: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -456,7 +456,7 @@ section .row span {
 }
 
 #contact {
-    background-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+    background-image: linear-gradient(135deg, #6af2fb 0%, #8227c8 100%);
     clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
     padding: 15rem 0 10rem 0;
     margin-top: -15rem;
@@ -606,7 +606,7 @@ section .row span {
     position: absolute;
     top: 20%;
     left: 50%;
-    border: 2px solid #5b86e5;
+    border: 2px solid #f0c021;
     transform: translate(-50%, -100%) rotate(45deg);
     border-top: none;
     border-left: none;
@@ -652,7 +652,7 @@ section .row span {
 }
 
 #projects {
-    background-color: #e5e5e5;
+    background-color: #ffffff;
     color: #272341;
     margin-top: -15rem;
     padding-top: 15rem
@@ -763,4 +763,62 @@ section .row span {
         margin-bottom: 3.2rem;
         transform: none
     }
+}
+
+
+#ArtWorks {
+    background-color: #ffffff;
+    color: #272341;
+    margin-top: -15rem;
+    padding-top: 15rem;
+    float: middle;
+}
+
+#ArtWorks .ArtWorks-wrapper {
+    margin-bottom: 15rem
+}
+
+
+#ArtWorks .ArtWorks-wrapper__text {
+    margin-top: 0rem
+}
+
+#ArtWorks .ArtWorks-wrapper__text-title {
+    font-weight: bold;
+    margin-bottom: 1.8rem;
+    font-size: 2.5rem
+}
+
+
+#ArtWorks .ArtWorks-wrapper__image_parent {
+    border: none;
+    margin: 1rem;
+    padding: 0rem 2rem;
+    width:100%;
+   height: auto;
+
+}
+
+#ArtWorks .child {
+ display: inline-block;
+border: none;
+padding: 0rem 5rem;
+vertical-align: middle;
+
+}
+
+#ArtWorks .ArtWorks-wrapper__text-info {
+    width: 240px;
+
+    margin-bottom: 1.5rem;
+    word-wrap: break-word;
+}
+   
+   
+
+#ArtWorks .ArtWorks-wrapper__image .thumbnail .img-fluid {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 2px
 }

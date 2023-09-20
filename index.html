@@ -13,167 +13,86 @@
 
 
 <body>
+  <!--Header -->
+  <header>
+    <h1>Victor's Portfolio</h1>
+    <nav class="nav">
+      <span><a href="#about">About</a></span>
+    </nav>
+    <nav class="nav">
+      <span><a href="#portfolio">Portfolio</a></span>
+    </nav>
+    <nav class="nav">
+      <span><a href="#contact">Contact</a></span>
+    </nav>
+  </header>
 
-<style>
-  .metallic-text {
-    background: -webkit-linear-gradient(-30deg, #000000, #007c7c);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .metallic-text:hover{
-    background: -webkit-linear-gradient(left, #757575, #09c247);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .artsy-text {
-    background: -webkit-linear-gradient(-30deg, #7af2ff, #00498e, #7b66bd, #ff5392);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .artsy-text:hover {
-    background: -webkit-linear-gradient(-30deg, #88f3f3, #3685d0, #a190d6, #e892b1);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  
-  iframe{
-    width: 80rem; 
-    height: 50rem;
-  }
-  
-  @media (max-width: 78em){
-    iframe{
-    width: 60rem; 
-    height: 30rem;
-  }
-  }
-  
-  @media (max-width: 40em){
-    iframe{
-    width: 30rem; 
-    height: 25rem;
-  }
-  }
-  
-  .container {
-    background-image: url("assets/background.png");
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0rem;
-    align-items: center;
-    font-weight: bold;
-    font-size: 100px;
-    text-align: left;
-    padding-top: 4rem;
-    height: auto;
-  }
-  
-  @media (max-width: 78em) {
-    .container {
-      flex-direction: column;
-      height: auto;
-    }
-    #left-text, #right-text {
-      font-size: 4rem;
-      padding: 1rem;
-    }
-  
-    #left-small, #right-small {
-      font-size: 1rem;
-    }
-  
-    img#center-image {
-      width: 10rem;
-    }
-    .coll{
-      flex-direction: column
-    }
-  }
-  
-  
-  
-  #left-text {
-    font-size: 7rem;
-    padding-right: 10rem;
-    padding-left: 5rem;
-  }
-  #right-text {
-    font-size: 7rem;
-    padding-left: 5rem;
-  }
-  #left-small{
-    font-size: 2rem;
-  }
-  #right-small{
-    font-size: 2rem;
-  }
-  
-  img#center-image {
-    width: 30rem;
-    height: auto;
-    padding: none;
-  
-    transition: opacity .5s;
-  }
-  
-  img#center-image:hover {
-    transform: scale(1.01);
-  
-  }
-  
-  .figure {
-    position: relative;
-     max-width: 100%;
-   }
-  
-  .figure img.image-hover {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0px;
-    bottom: 0;
-    object-fit: contain;
-    opacity: 0;
-  }
-  .figure:hover img.image-hover {
-    opacity: 1;
-  }
-  .figure:hover img.image-main{
-    opacity: 0;
-    transition: opacity .5s;
-  }
-  </style>
   <!-- Hero Page -->
   <div class="container">
     <a href="#about">
-      <h2 class="artsy-text" id="left-text">Designer
-        <p id=left-small> I started my journey through art creating animations, paintings, and digital sculptures. </p>
+      <h2 class="artsy-text" id="left-text" style="padding: 5rem;">Artist
+        <p id=left-small> I've made animations, models, paintings, and games using creative techniques and mediums</p>
       </h2>
     </a>
     <div class="figure">
       <a href="#about">
         <img class="Sirv image-main" id="center-image" src="assets/1.png"
-          alt="">
+          alt="A simple drawing of me playing the ukelele wearing a UCSB sweater">
         <img class="Sirv image-hover" id="center-image" src="assets/2.png"
-          alt="">
+          alt="A black in white photo of me playing the ukelele wearing a UCSB sweater">
       </a>
     </div>
 
     <a href="#portfolio">
-      <h3 class="metallic-text" id="right-text">&#60;Coder&#62;
-        <p id="right-small">As I became more technically advanced so have my projects and goals. I now create art using
-          technology</p>
+      <h3 class="metallic-text" id="right-text" style="padding: 5rem;">Engineer
+        <p id="right-small">Skilled with a computer and science I have been able to build robots, code apps, and
+          control instruments </p>
       </h3>
     </a>
   </div>
+  <!-- About-->
+  <h4 id="title" style=" background-color: black; color: white; padding: 1rem;">About me</h4>
+  <div id="about" class="about">
+        <img id="left-image" src="./assets/profile.png"
+        alt="A professional photo of me from the waist up looking to the right">
+        <div class="coll">
   
+      <p style=" font-size: 2rem;font-weight: 5; padding: 5rem;">
+        Welcome to my portfolio. I'm Victor Garcia, a computer engineering student at UCSB with a passion
+        for bridging the gap between art and technology.<br><br>
+        I've developed a wide range of projects, each one driven by a deep desire to explore the
+        creative possibilities at the intersection of art and science. <br><br>
+        I'm particularly interested in computer graphics, and have used a variety of software tools to bring my artistic
+        vision to life. I'm always seeking
+        new ways to push the boundaries of what's possible in the field of computer graphics.
+        <br><br>
+        <a href="assets/VictorGarcia_Resume.pdf" class="btn">View Resume</a>
+      </p>
+
+    </div>
+  </div>
+
+  <!--Portfolio-->
+  <section class="portfolio" id="portfolio">
+   
+  </section>
+  <!-- Contact -->
+  <footer class="contact-footer" id="contact">
+    <div class="contact-details">
+      <h10>Contact Me</h10>
+      <p>Email:</p><a class="fartsy-text" href="mailto:vhg@ucsb.edu">vhg@ucsb.edu</a>
+      <p>Phone: </p><a class="fartsy-text" href="tel:818-401-6577">818-401-6577</a>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/victor-garcia-java/"><img style="max-width: 10rem;"
+          src="assets/LI-In-Bug.png"></a>
+      <a href="https://github.com/El-Beetor"><img style="max-width: 10rem;" src="assets/githublogo.png"></a>
+      <a href="mailto:vhg@ucsb.edu"><img style="max-width: 10rem;" src="assets/UC-Santa-Barbara-seal-White RGB.png"></a>
+
+    </div>
+  </footer>
+
+
 </body>
 
 </html>

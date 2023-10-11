@@ -3,13 +3,20 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 html {
   font-size: 60.5%;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 body {
@@ -30,15 +37,12 @@ a {
   text-decoration: none;
 }
 
-
-
-
 header {
   background-color: black;
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 0px;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -48,12 +52,15 @@ header {
 @media (max-width: 48em) {  
   header {
     flex-direction: column;
-    padding: .5rem;
+    padding: 0rem;
+    display:none;
   }
   .nav {
     display: none;
   }
 }
+
+
 .nav  {
   border-radius: 0px;
   background-color: none;
@@ -62,10 +69,10 @@ header {
   text-align: center;
   font-size: 28px;
   padding: 0px;
-  width: 200px;
+  width: 100%;
   transition: all transform 0.3s ease-in-out;
   cursor: pointer;
-  margin: 5px;
+ 
 }
 .nav a {
   color: white;
@@ -449,4 +456,8 @@ li:is(:hover, :focus-within) + li + li + li + li + li + li {
    column-count:         2;
     display: block;
   }
+}
+
+.result{
+  padding: 0 !important;
 }

@@ -27,6 +27,7 @@ body {
 h1,h2,h3,h4,h5,h6,h7,h8,h9,h10 {
   font-size: 3rem;
   font-weight: 700;
+  width: 100%;
 }
 
 p, a {
@@ -47,17 +48,6 @@ header {
   position: fixed;
   width: 100%;
   z-index: 1000;
-}
-
-@media (max-width: 48em) {  
-  header {
-    flex-direction: column;
-    padding: 0rem;
-    display:none;
-  }
-  .nav {
-    display: none;
-  }
 }
 
 
@@ -104,6 +94,17 @@ header {
 .nav:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+@media (max-width: 48em) {  
+  header {
+    flex-direction: column;
+    padding: 0rem;
+    
+  }
+  .nav {
+    display: none;
+  }
 }
 
 .metallic-text {
@@ -465,4 +466,60 @@ li:is(:hover, :focus-within) + li + li + li + li + li + li {
 
 .result{
   padding: 0 !important;
+}
+
+
+/*projects*/
+.portfolio-section {
+  background-color:#000f2a;
+  padding: 0px 0;
+}
+
+.project {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 5px 20px 20px rgba(20, 0, 66, 0.5);
+  margin: 10rem;
+  padding: 10rem;
+  text-align: center;
+  max-width: 100rem;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.project p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.project a {
+  display: block;
+  margin-top: 10px;
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.project a:hover {
+  color: #0056b3;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 48rem) {
+  .container {
+    flex-direction: column;
+  }
+  .project {
+    max-width: 100%;
+  }
 }

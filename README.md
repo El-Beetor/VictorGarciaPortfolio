@@ -1,53 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor Garcia's Portfolio</title>
-    <!-- Add your CSS styles or link to an external stylesheet here -->
-</head>
-<body>
+Victor Garcia's Portfolio
+Welcome to Victor Garcia's Portfolio website! This website serves as a showcase of Victor Garcia's skills, projects, and achievements. You can visit the live site at https://el-beetor.github.io/VictorGarciaPortfolio.
 
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+Table of Contents
+About
+Projects
+Skills
+Contact
+About
+The "About" section provides a brief introduction to Victor Garcia, highlighting his background, education, and professional experience. You can find more about Victor by visiting the About section.
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Victor Garcia</h2>
-        <!-- Add your content here -->
-    </section>
+Projects
+Explore the "Projects" section to get a closer look at Victor Garcia's notable projects. Each project includes a description, technologies used, and a link to the project itself. Check out the Projects section for more details.
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <!-- Add your projects here -->
-    </section>
+Skills
+In the "Skills" section, Victor showcases his technical skills and areas of expertise. Whether it's programming languages, frameworks, or tools, this section provides insight into Victor's capabilities. Dive into the Skills section to learn more.
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <!-- Add your skills here -->
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <!-- Add your contact information here -->
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2023 Victor Garcia's Portfolio. All rights reserved.</p>
-    </footer>
-
-    <!-- Add your JavaScript scripts or link to external scripts here -->
-
-</body>
-</html>
+Contact
+If you have any inquiries or would like to get in touch with Victor Garcia, head over to the "Contact" section. You'll find contact information, including email and social media links. Feel free to reach out through the Contact section.
